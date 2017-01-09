@@ -1,0 +1,57 @@
+@media screen and (max-width: 800px){
+    #box{
+        width: auto;
+        height: auto;
+        display: table;
+        margin: 10px 10px 40px 10px;
+    }
+    #left{
+        width: auto;
+        height: auto;
+        border-bottom: 1px solid #E6E6E6;
+        border-right: 0;
+    }
+    #right1{
+        width: auto;
+        height: auto;
+    }
+    #right2{
+        width: auto;
+        height: auto;
+    }
+    .button{
+        width: auto;
+        height: auto;
+    }
+    #list{
+        width: 240px;
+        height: 240px;
+        position: relative;
+        display: block;
+        margin: 10px auto;
+    }
+    #container{
+        width: auto;
+        height: auto;
+    }
+    .element_li{
+        cursor: default;
+    }
+    .element_li:hover img {
+        opacity: 1;
+    }
+    .element_li:hover p a{
+        color: #d3aa6f;
+    }
+    #carousel{
+        display: none;
+    }
+    #slider{
+        display: inherit;
+    }
+    #panel{
+        display: block;
+        position: relative;
+        width: 350px;
+    }
+}
